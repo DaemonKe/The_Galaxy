@@ -1,0 +1,10 @@
+{
+  "block.the_galaxy.launch_pad": "Launch Pad",
+  "block.the_galaxy.observatory_controller": "Observatory Controller",
+  "item.the_galaxy.rocket_engine": "Rocket Engine",
+  "item.the_galaxy.satellite_core": "Satellite Core",
+  "item.the_galaxy.telescope": "Astronomical Telescope",
+  "itemGroup.the_galaxy": "The Galaxy",
+  "tooltip.the_galaxy.rocket_engine": "Spacecraft crafting component; rocket flight is planned.",
+  "tooltip.the_galaxy.satellite_core": "Satellite crafting component; satellite systems are planned."
+}

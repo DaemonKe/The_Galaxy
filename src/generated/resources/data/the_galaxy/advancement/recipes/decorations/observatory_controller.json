@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_telescope": {
+      "conditions": {
+        "items": [
+          {
+            "items": "the_galaxy:telescope"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "the_galaxy:observatory_controller"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_telescope"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "the_galaxy:observatory_controller"
+    ]
+  }
+}

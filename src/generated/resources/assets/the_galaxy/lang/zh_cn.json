@@ -1,0 +1,10 @@
+{
+  "block.the_galaxy.launch_pad": "发射台",
+  "block.the_galaxy.observatory_controller": "观测站控制器",
+  "item.the_galaxy.rocket_engine": "火箭引擎",
+  "item.the_galaxy.satellite_core": "卫星核心",
+  "item.the_galaxy.telescope": "天文望远镜",
+  "itemGroup.the_galaxy": "星河探索",
+  "tooltip.the_galaxy.rocket_engine": "航天制造组件；火箭飞行系统尚在开发中。",
+  "tooltip.the_galaxy.satellite_core": "卫星制造组件；卫星系统尚在开发中。"
+}

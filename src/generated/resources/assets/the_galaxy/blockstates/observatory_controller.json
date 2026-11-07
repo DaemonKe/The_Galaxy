@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "the_galaxy:block/observatory_controller"
+    }
+  }
+}

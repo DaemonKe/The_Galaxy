@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "the_galaxy:satellite_core"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "T": {
+      "item": "the_galaxy:telescope"
+    }
+  },
+  "pattern": [
+    "ITI",
+    "RCR",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "the_galaxy:observatory_controller"
+  }
+}
