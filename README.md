@@ -63,6 +63,8 @@ The Galaxy 是一个正在开发的 Minecraft Java 版天文与航天 Mod，使�
 
 ## 快速开始
 
+双电脑与 Codex 协作请先阅读 [配置与协作指南](docs/COLLABORATION.md)，当前交接信息见 [HANDOFF](docs/HANDOFF.md)。项目专用 Skill 已放入 `.agents/skills/`，会随仓库同步。
+
 克隆仓库：
 
 ```bash

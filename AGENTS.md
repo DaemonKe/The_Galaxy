@@ -9,3 +9,12 @@
 - Keep both `zh_cn` and `en_us` names/tooltips for new content. Vanilla art references are temporary and documented.
 - Preserve stable registry IDs and namespaces. Add persistence or networking only when a feature requires it.
 - Report actual validation performed. Build/datagen success does not establish client rendering, dedicated-server gameplay, or multiplayer correctness.
+
+## Two-computer collaboration
+
+- Read `docs/COLLABORATION.md` and `docs/HANDOFF.md` when starting or handing off work. The canonical skill is `.agents/skills/neoforge-1-21-1/`; read its SKILL.md directly if automatic discovery is unavailable.
+- Use an independent Git clone per computer. Keep Git metadata, Java, caches and runtime worlds outside shared-folder synchronization. Configure each clone with `scripts/setup-workspace.py`.
+- Start with `git status` and `git fetch origin`. Use one `feat/`, `fix/` or `docs/` branch per task. Never change branches, pull, reset or overwrite uncommitted work to resolve another computer's changes.
+- For a handoff, commit and push the task branch, and update its `docs/HANDOFF.md` entry with changed files, exact checks and remaining work. An unpushed change cannot be assumed available on the other computer.
+- Parallel tasks need separate branches and ownership of touched files; coordinate shared registry/data-generator changes. Merge through a PR after review; update main only by fast-forward. Do not force-push shared history during routine work.
+- Public commits must use the GitHub username and GitHub noreply email. Keep real names, personal email, home paths, credentials and private logs out of tracked files, commit messages, PRs and screenshots. Preserve the privacy hooks; review their findings rather than bypassing them.

@@ -1,0 +1,11 @@
+#!/bin/sh
+set -eu
+if command -v py >/dev/null 2>&1; then
+    exec py -3 scripts/check_privacy.py
+elif command -v python3 >/dev/null 2>&1; then
+    exec python3 scripts/check_privacy.py
+elif command -v python >/dev/null 2>&1; then
+    exec python scripts/check_privacy.py
+fi
+printf '%s\n' 'Python 3 is required for the repository privacy check.' >&2
+exit 1

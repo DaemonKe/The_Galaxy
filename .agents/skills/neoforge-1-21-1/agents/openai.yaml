@@ -1,0 +1,4 @@
+interface:
+  display_name: "NeoForge 1.21.1 Mod Development"
+  short_description: "Build and debug Minecraft 1.21.1 mods with NeoForge"
+  default_prompt: "Use $neoforge-1-21-1 to develop this Minecraft 1.21.1 NeoForge mod with Java 21 and verify the relevant build and runtime behavior."

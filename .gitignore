@@ -44,3 +44,19 @@ repo/
 .tools/
 runs/
 logs/
+
+# Machine-specific configuration and credentials must stay local.
+.env
+.env.*
+!.env.example
+.codex/
+.aws/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+__pycache__/
+*.pyc
